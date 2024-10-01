@@ -64,9 +64,5 @@ let data= {
 }
 
 
-Object.keys(data).map( attribut => {
-  console.log(attribut)
-  //un objet est aussi un tableau
-  console.log(data[attribut]);
-});
+
 ```
