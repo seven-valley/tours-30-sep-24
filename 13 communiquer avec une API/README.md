@@ -68,6 +68,6 @@ let data= {
 ```
 # Objectif
 - Ajouter une personne dans Real Time data base.  
-- Afficher la liste de personnne avec useEffect au démarrage.  
-- Enlever la personne de la liste  
+- Afficher la liste de personnnes avec useEffect au démarrage.  
+- Enlever la personne de la liste. 
 - Modifier l'état de la personne.  
