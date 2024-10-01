@@ -11,7 +11,7 @@ export default class Data{
 }
 ```
 
-le component principal App.jsx
+# le component principal App.jsx
 **App.jsx**
 ```jsx
 import { useEffect, useState } from "react";
