@@ -138,6 +138,8 @@ export default function App() {
         "Content-Type": "application/json",
       },
     });
+    delete personnes[id];
+    setPersonnes({ ...personnes });
   };
   const modifier = async (id: string) => {
     const url2 = url + noeud + "/" + id + ".json";
