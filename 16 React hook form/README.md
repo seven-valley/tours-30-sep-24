@@ -20,7 +20,7 @@ export default function App() {
         <input name="statut" />
         <button type="submit">GO</button>
       </form>
-      <p> Render {counter++}</p>
+      
     </>
   )
 }
@@ -31,7 +31,7 @@ export default function App() {
 # apres
 ```tsx
 import { useForm } from "react-hook-form"
-let counter =0;
+
 export default function App() {
   const {register, handleSubmit} = useForm();
   const valider =(data:any)=>{
@@ -45,7 +45,7 @@ export default function App() {
         <input {...register("statut")} />
         <button type="submit">GO</button>
       </form>
-      <p> Render {counter++}</p>
+      
     </>
   )
 }
@@ -77,7 +77,7 @@ export default function App() {
 # La gestion des erreurs
 ```tsx
 import { useForm } from "react-hook-form"
-let counter =0;
+
 export default function App() {
   const {register,  handleSubmit ,formState: { errors },} = useForm();
   const valider =(data:any)=>{
@@ -96,7 +96,7 @@ export default function App() {
       <br /> <input {...register('statut')} />
         <button type="submit">GO</button>
       </form>
-      <p> Render {counter++}</p>
+      
     </>
   )
 }
@@ -105,7 +105,7 @@ export default function App() {
 # le typeScript
 ```tsx
 import { useForm, SubmitHandler } from "react-hook-form"
-let counter =0;
+
 export default function App() {
   const {register,  handleSubmit ,formState: { errors },} = useForm();
   
@@ -131,7 +131,7 @@ export default function App() {
       <br /> <input {...register('statut',{ pattern: /^[A-Za-z]+$/i })} />
         <button type="submit">GO</button>
       </form>
-      <p> Render {counter++}</p>
+     
     </>
   )
 }
