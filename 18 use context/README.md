@@ -1,5 +1,7 @@
+# Use context
+https://openclassrooms.com/fr/courses/7150606-creez-une-application-react-complete/7256029-partagez-vos-donnees-avec-le-contexte-et-usecontext  
 
-# CountContext.jsx
+## CountContext.jsx
 **src/context/CountContext.jsx**
 ```jsx
 import { createContext } from "react";
@@ -40,7 +42,7 @@ export const CountProvider = (props) => {
 };
 
 ```
-# App.jsx
+## App.jsx
 ```jsx
 import { CountProvider } from "./context/CountContext";
 import Count from "./components/Count";
@@ -63,7 +65,7 @@ function App() {
 export default App;
 ```
 
-# Button.jsx
+## Button.jsx
 ```jsx
 import React from "react";
 import { useContext } from "react";
@@ -86,7 +88,7 @@ function Buttons() {
 
 export default Buttons;
 ```
-# Count.jsx
+## Count.jsx
 
 ```jsx
 import React from "react";
