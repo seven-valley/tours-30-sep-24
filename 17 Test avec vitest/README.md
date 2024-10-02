@@ -90,7 +90,20 @@ Pour tester un composant le plus simple est de vérifier que la structure HTML c
 Vérifier le contenu HTML
 https://vitest.dev/guide/snapshot.html
 
+```jsx
+import {describe, it, expect} from "vitest";  
+import {render, screen} from "@testing-library/react";  
+import {Async} from "Async.jsx";  
+import {userEvent} from "@testing-library/user-event";  
 
+describe('<Async>', () => {  
+  it('toUpperCase', () => {
+    const result = toUpperCase('hello')
+    expect(result).toMatchInlineSnapshot()
+  })
+    
+})
+```
 ## tester une API
 Pour tester une API :  
 https://jsonplaceholder.typicode.com/
