@@ -155,3 +155,8 @@ https://testing-library.com/docs/react-testing-library/intro/
 
 Grafikart.fr  
 https://grafikart.fr/tutoriels/react-test-2158  
+
+# Objectif
+- tester une function
+- tester un component
+- test une URL d'API
