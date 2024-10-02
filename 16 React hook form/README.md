@@ -136,3 +136,35 @@ export default function App() {
   )
 }
 ```
+## correction
+```jsx
+import { useForm } from "react-hook-form"
+
+export default function App() {
+  const {register,  handleSubmit ,formState: { errors },} = useForm();
+  const valider =(data:any)=>{
+    console.log(data);
+  }
+  
+  return (
+    <>
+      <form onSubmit={handleSubmit(valider)} >
+      {errors.appareil && <span>Vous devez ecrire le nom </span>}
+      <br />
+        <input {...register("appareil",{
+					required: true
+				})} />
+        <br />
+        {errors.statut && <p role="alert">{errors.statut.message}</p>}
+        <input {...register("statut",{ 
+          required: "remplir svp", 
+          minLength: {value:3,message:'3 char min'},
+          pattern:{ value: /^[A-Za-z]+$/i ,message:"pas chiffre"} })} />
+        <br />
+        <button type="submit">GO</button>
+      </form>
+      
+    </>
+  )
+}
+```
