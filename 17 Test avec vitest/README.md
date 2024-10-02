@@ -88,6 +88,31 @@ npm run test
 Vérifier le contenu HTML
 https://vitest.dev/guide/snapshot.html
 
+
+## tester une API
+```js
+import { beforeAll, describe, expect, expectTypeOf, test } from 'vitest';
+
+const BEFORE_ALL_TIMEOUT = 30000; // 30 sec
+describe('Request fetch ok', () => {
+    let response;
+    // let body: Array<{ [key: string]: unknown }>;
+  
+    beforeAll(async () => {
+       response = await fetch(
+        'https://jsonplaceholder.typicode.com/posts/3',
+      );
+   
+    }, BEFORE_ALL_TIMEOUT);
+  
+    test('Should have response status 200', () => {
+      expect(response.status).toBe(200);
+    });
+  
+    
+  });
+  ```
+   
 # les liens
 
 tester un API :  
