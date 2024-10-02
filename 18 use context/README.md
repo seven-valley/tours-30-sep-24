@@ -95,10 +95,8 @@ import { CountContext } from "../context/CountContext";
 
 function Count() {
 	// communication avec le context ciblé mise en place
-	// => const props_value_du_context = useContext(nom_du_context_auquel_on_sabonne)
-	const contexteData = useContext(CountContext);
 	// seul "count" nous interresse ici
-	const { count } = contexteData;
+	const { count } = useContext(CountContext);
 
 	// on écrira plutot
 	// const {count} = useContext(CountContext)
