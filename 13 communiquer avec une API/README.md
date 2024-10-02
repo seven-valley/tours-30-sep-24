@@ -54,18 +54,16 @@ export default function App() {
 
 ```
 
+
 ## Astuces
 ```jsx
-
 let data= {
     "id1" :{"nom": "PITT", "prenom": "Brad"},
     "id2" :{"nom": "CAGE", "prenom": "Nicolas"},
     "id3" :{"nom": "JOLIE", "prenom": "Angelina"}
 }
-
-
-
 ```
+
 # Objectif
 - Ajouter une personne dans Real Time data base.  
 - Afficher la liste de personnnes avec useEffect au démarrage.  
