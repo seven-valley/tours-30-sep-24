@@ -21,6 +21,11 @@ npm i -D vitest jsdom  @testing-library/react
  }
 }
 ```
+## Lancer les test
+```
+npm run test
+```
+
 ## setup.js
 Dans le fichier **setup.js** on s'assurera que notre environnement est bien nettoyé après chaque test.  
   
