@@ -84,6 +84,11 @@ it('adds 1 + 2 to equal 3', () => {
 ```js
 npm run test
 ```
+# snapshot
+Vérifier le contenu HTML
+https://vitest.dev/guide/snapshot.html
+
+# les liens
 
 tester un API :  
 https://adequatica.medium.com/api-testing-with-vitest-391697942527  
