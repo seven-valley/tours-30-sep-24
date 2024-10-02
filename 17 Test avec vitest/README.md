@@ -92,6 +92,11 @@ https://vitest.dev/guide/snapshot.html
 
 
 ## tester une API
+Pour tester une API :  
+https://jsonplaceholder.typicode.com/
+  
+https://jsonplaceholder.typicode.com/posts/3  
+  
 ```js
 import { beforeAll, describe, expect, expectTypeOf, test } from 'vitest';
 
