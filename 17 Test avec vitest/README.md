@@ -85,6 +85,8 @@ it('adds 1 + 2 to equal 3', () => {
 npm run test
 ```
 # snapshot
+Pour tester un composant le plus simple est de vérifier que la structure HTML corresponde à ce que l'on attend. On pourra aussi utiliser la librairie @testing-library/user-event pour simuler les évènements navigateur.  
+  
 Vérifier le contenu HTML
 https://vitest.dev/guide/snapshot.html
 
