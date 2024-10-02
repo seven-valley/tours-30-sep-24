@@ -46,16 +46,16 @@ it('adds 1 + 2 to equal 3', () => {
 npm run test
 ```
 
-tester un API :
+tester un API :  
 https://adequatica.medium.com/api-testing-with-vitest-391697942527  
   
-https://runthatline.com/how-to-mock-fetch-api-with-vitest/  
+https://runthatline.com/how-to-mock-fetch-api-with-vitest/    
   
 Mocking 
-https://blog.logrocket.com/advanced-guide-vitest-testing-mocking/
+https://blog.logrocket.com/advanced-guide-vitest-testing-mocking/  
 
-La librairy de test React (autre que vitest)
-https://testing-library.com/docs/react-testing-library/intro/ 
+La librairy de test React (autre que vitest)  
+https://testing-library.com/docs/react-testing-library/intro/   
 
 Grafikart.fr  
-https://grafikart.fr/tutoriels/react-test-2158 
+https://grafikart.fr/tutoriels/react-test-2158  
