@@ -51,7 +51,7 @@ https://adequatica.medium.com/api-testing-with-vitest-391697942527
   
 https://runthatline.com/how-to-mock-fetch-api-with-vitest/    
   
-Mocking 
+Mocking  
 https://blog.logrocket.com/advanced-guide-vitest-testing-mocking/  
 
 La librairy de test React (autre que vitest)  
