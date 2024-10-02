@@ -1,5 +1,8 @@
 # test avec vitest
 
+https://vitest.dev/guide/
+
+
 ## Installer vitest
 ```
 npm i -D vitest jsdom  @testing-library/react
@@ -42,3 +45,17 @@ it('adds 1 + 2 to equal 3', () => {
 ```js
 npm run test
 ```
+
+tester un API :
+https://adequatica.medium.com/api-testing-with-vitest-391697942527  
+  
+https://runthatline.com/how-to-mock-fetch-api-with-vitest/  
+  
+Mocking 
+https://blog.logrocket.com/advanced-guide-vitest-testing-mocking/
+
+La librairy de test React (autre que vitest)
+https://testing-library.com/docs/react-testing-library/intro/ 
+
+Grafikart.fr  
+https://grafikart.fr/tutoriels/react-test-2158 
